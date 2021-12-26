@@ -93,7 +93,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
   end
 
   def max_toot_chars
-    StatusLengthValidator::MAX_CHARS
+    9999
   end
 
   def invites_enabled
