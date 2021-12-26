@@ -12,7 +12,7 @@ zh-HK:
     apps_platforms: 在 iOS、Android 和其他平台使用 Mastodon
     browse_directory: 依興趣瀏覽個人資料目錄和過濾器
     browse_local_posts: 瀏覽這個伺服器的公開文章即時串流
-    browse_public_posts: 在 Mastodon 瀏覽公開文章的即時串流
+    browse_public_posts: 查看所有網站公告和相關使用教程
     contact: 聯絡
     contact_missing: 未設定
     contact_unavailable: 不適用
@@ -28,7 +28,7 @@ zh-HK:
     privacy_policy: 隱私權政策
     rules: 系統規則
     rules_html: 如果你想要在本站開一個新帳戶，以下是你需要遵守的規則：
-    see_whats_happening: 看看發生什麼事
+    see_whats_happening: 公告和教程
     server_stats: 伺服器統計：
     source_code: 源代碼
     status_count_after:
