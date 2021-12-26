@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
+# 字数修改第三部分 By Ice Year
 class StatusLengthValidator < ActiveModel::Validator
-  MAX_CHARS = 500
+  MAX_CHARS = 9999
   URL_PLACEHOLDER_CHARS = 23
   URL_PLACEHOLDER = "\1#{'x' * URL_PLACEHOLDER_CHARS}"
 
