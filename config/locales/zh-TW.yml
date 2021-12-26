@@ -1401,9 +1401,38 @@ zh-TW:
       <p>最初改編自 <a href="https://github.com/discourse/discourse">Discourse 隱私權政策</a>。</p>
     title: "%{instance} 使用條款和隱私權政策"
   themes:
-    contrast: Mastodon（高對比）
-    default: Mastodon（深色）
-    mastodon-light: Mastodon（亮色主題）
+    bilibili-light: 嗶哩嗶哩(゜-゜)つロ乾杯~
+    contrast: Mastodon（深色主題-群青）
+    cybre-light: 老夫的少女心
+    dark-cyan: Mastodon（深色主題-錆淺蔥）
+    dark-green: Mastodon（深色主題-若竹）
+    dark-orange: Mastodon（深色主題-赤橙）
+    dark-pink: Mastodon（深色主題-桜色）
+    dark-purple: Mastodon（深色主題-桔梗）
+    dark-red: Mastodon（深色主題-紅緋）
+    dark-yellow: Mastodon（深色主題-向日葵）
+    default: Mastodon（默認）
+    forest: 小森林
+    light-cyan: Mastodon（亮色主題-錆淺蔥）
+    light-green: Mastodon（亮色主題-若竹）
+    light-orange: Mastodon（亮色主題-赤橙）
+    light-pink: Mastodon（亮色主題-桜色）
+    light-purple: Mastodon（亮色主題-桔梗）
+    light-red: Mastodon（亮色主題-紅緋）
+    light-yellow: Mastodon（亮色主題-向日葵）
+    luxury: 奢華
+    mastodon-light: Mastodon（亮色主題-群青）
+    new-year: 新年
+    nga: NGA風格
+    sakura: 櫻花
+    sleeping-town: 小鎮黎明
+    strawberry: 草莓
+    transparent-aurora: 極光（透明）
+    transparent-forest-trace: 林間小道（透明）
+    transparent-starry-sky: 星空（透明）
+    ubuntu-light: Ubuntu 橙
+    ubuntu-terminal: Ubuntu 命令行
+    witches-town: 巫師小鎮
   time:
     formats:
       default: "%Y年%-m月%d日 %H:%M"
