@@ -12,7 +12,7 @@ en:
     apps_platforms: Use Mastodon from iOS, Android and other platforms
     browse_directory: Browse a profile directory and filter by interests
     browse_local_posts: Browse a live stream of public posts from this server
-    browse_public_posts: Browse a live stream of public posts on Mastodon
+    browse_public_posts: Browse all the announcements and learn more about our website
     contact: Contact
     contact_missing: Not set
     contact_unavailable: N/A
@@ -28,7 +28,7 @@ en:
     privacy_policy: Privacy policy
     rules: Server rules
     rules_html: 'Below is a summary of rules you need to follow if you want to have an account on this server of Mastodon:'
-    see_whats_happening: See what's happening
+    see_whats_happening: Announcements and tutorials
     server_stats: 'Server stats:'
     source_code: Source code
     status_count_after:
