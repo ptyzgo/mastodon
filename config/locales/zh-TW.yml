@@ -12,7 +12,7 @@ zh-TW:
     apps_platforms: 在 iOS、Android 和其他平台使用 Mastodon
     browse_directory: 依興趣瀏覽個人資料目錄和過濾器
     browse_local_posts: 瀏覽這台伺服器中公開嘟文的直播串流
-    browse_public_posts: 在 Mastodon 瀏覽公開嘟文的即時串流
+    browse_public_posts: 查看所有網站公告和相關使用教程
     contact: 聯絡我們
     contact_missing: 未設定
     contact_unavailable: 未公開
@@ -26,7 +26,7 @@ zh-TW:
     privacy_policy: 隱私權政策
     rules: 伺服器規則
     rules_html: 以下是您若想在此 Mastodon 伺服器建立帳戶必須遵守的規則總結：
-    see_whats_happening: 看看發生什麼事
+    see_whats_happening: 公告和教程
     server_stats: 伺服器統計：
     source_code: 原始碼
     status_count_after:
