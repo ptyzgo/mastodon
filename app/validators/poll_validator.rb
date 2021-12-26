@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PollValidator < ActiveModel::Validator
-  MAX_OPTIONS      = 4
+  MAX_OPTIONS      = 16
   MAX_OPTION_CHARS = 50
   MAX_EXPIRATION   = 1.month.freeze
   MIN_EXPIRATION   = 5.minutes.freeze
@@ -17,3 +17,5 @@ class PollValidator < ActiveModel::Validator
     poll.errors.add(:expires_at, I18n.t('polls.errors.duration_too_short')) if poll.expires_at.present? && (poll.expires_at - current_time).ceil < MIN_EXPIRATION
   end
 end
+
+# 投票上限修改第二部分 By Ice Year
