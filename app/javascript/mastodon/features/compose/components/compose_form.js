@@ -80,7 +80,7 @@ class ComposeForm extends ImmutablePureComponent {
   getFulltextForCharacterCounting = () => {
     return [this.props.spoiler? this.props.spoilerText: '', countableText(this.props.text)].join('');
   }
-  
+
   canSubmit = () => {
     const { isSubmitting, isChangingUpload, isUploading, anyMedia } = this.props;
     const fulltext = this.getFulltextForCharacterCounting();
