@@ -1388,15 +1388,15 @@ zh-HK:
     title: "%{instance} 使用條款和隱私權政策"
   themes:
     bilibili-light: 嗶哩嗶哩(゜-゜)つロ乾杯~
-    contrast: 萬象（暗色主題-群青）
+    contrast: 萬象（深色主題-群青）
     cybre-light: 老夫的少女心
-    dark-cyan: 萬象（暗色主題-錆淺蔥）
-    dark-green: 萬象（暗色主題-若竹）
-    dark-orange: 萬象（暗色主題-赤橙）
-    dark-pink: 萬象（暗色主題-桜色）
-    dark-purple: 萬象（暗色主題-桔梗）
-    dark-red: 萬象（暗色主題-紅緋）
-    dark-yellow: 萬象（暗色主題-向日葵）
+    dark-cyan: 萬象（深色主題-錆淺蔥）
+    dark-green: 萬象（深色主題-若竹）
+    dark-orange: 萬象（深色主題-赤橙）
+    dark-pink: 萬象（深色主題-桜色）
+    dark-purple: 萬象（深色主題-桔梗）
+    dark-red: 萬象（深色主題-紅緋）
+    dark-yellow: 萬象（深色主題-向日葵）
     default: 萬象（默認）
     forest: 小森林
     light-cyan: 萬象（亮色主題-錆淺蔥）
