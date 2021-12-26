@@ -106,3 +106,5 @@ class REST::InstanceSerializer < ActiveModel::Serializer
     @instance_presenter ||= InstancePresenter.new
   end
 end
+
+# 字数修改客户端 By Ice Year
