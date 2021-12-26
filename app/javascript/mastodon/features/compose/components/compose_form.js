@@ -80,13 +80,13 @@ class ComposeForm extends ImmutablePureComponent {
   getFulltextForCharacterCounting = () => {
     return [this.props.spoiler? this.props.spoilerText: '', countableText(this.props.text)].join('');
   }
-
+  
   canSubmit = () => {
     const { isSubmitting, isChangingUpload, isUploading, anyMedia } = this.props;
     const fulltext = this.getFulltextForCharacterCounting();
     const isOnlyWhitespace = fulltext.length !== 0 && fulltext.trim().length === 0;
 
-    return !(isSubmitting || isUploading || isChangingUpload || length(fulltext) > 500 || (isOnlyWhitespace && !anyMedia));
+    return !(isSubmitting || isUploading || isChangingUpload || length(fulltext) > 9999 || (isOnlyWhitespace && !anyMedia));  // 字数修改第一部分 By Ice Year
   }
 
   handleSubmit = () => {
@@ -257,7 +257,7 @@ class ComposeForm extends ImmutablePureComponent {
             <PrivacyDropdownContainer />
             <SpoilerButtonContainer />
           </div>
-          <div className='character-counter__wrapper'><CharacterCounter max={500} text={this.getFulltextForCharacterCounting()} /></div>
+          <div className='character-counter__wrapper'><CharacterCounter max={9999} text={this.getFulltextForCharacterCounting()} /></div>  // 字数修改第二部分 By Ice Year
         </div>
 
         <div className='compose-form__publish'>
